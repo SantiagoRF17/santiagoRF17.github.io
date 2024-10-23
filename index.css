@@ -1,0 +1,77 @@
+body{
+    background-color:lightcoral;
+}
+
+header{
+    background-image: url('IMG/IMG/30512.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* para que ocupe casi toda la pantalla como en el origi*/
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+
+
+nav ul{            /*por si despues hago mas ul no confundirme*/
+    display: flex;
+    list-style-type: none;
+   
+}
+
+nav ul li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+.btn:hover{ /*cuando pase el clic por encima se vea rojo*/
+    color: red;
+    background-color: black;
+}
+
+.seleccion{
+    color: red;
+}
+
+.formulario{
+    padding: 50px;
+    width: 100vw;
+    background-image: url(IMG/IMG/976793.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+
+.btn{
+    border-radius: 15px;
+    border-color:red;
+    background-color:gainsboro;
+    width: 80px;
+    height: 50px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links audio{
+    margin: 30px 5px;
+}
+

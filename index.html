@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--este y el script de abajo es para la lupa tambien-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="IMG/IMG/logo.jpg" width="78" height="82">
+            <ul class="menu-screen">
+                <li><a href="" class="seleccion">Inicio</a></li>
+                <li><a href="">Categorias</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li><!--para que aparezca la lupa-->
+                <li><a href="">Acerca de nosotros</a></li>
+            </ul>
+           
+        </nav>
+    
+     </header>
+
+    <form  method="POST" class="formulario">
+        <div class="formu">
+            <label for="nombre">nombre de usuario</label>
+            <input type="text" name="user" id="username" placeholder="username"  >
+            <br>
+            <br>
+        </div>
+        <div class="formu">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" name="contras" id="contrasena" placeholder="************"  >
+            <br>
+            <br>
+        </div>
+
+        <label for="telefono">Teléfono</label>
+        <input type="text" name="tel" id="telefono" placeholder="+57....">
+        <br>
+        <br>
+
+        <label for="hijos">Número de hijos</label>
+        <input type="number" name="numhijos" id="hijos" width="50">
+        <br>
+        <br>
+
+        <label for="soltero">Soltero</label>
+        <input type="radio" name="estado" value="soltero" id="soltero">
+
+        <label for="casado">Casado</label>
+        <input type="radio" name="estado" value="casado" id="casado"  >
+
+        <label for="divorciado">Divorciado</label>
+        <input type="radio" name="estado" value="divorciado" id="divorciado"  >
+        <br>
+        <br>
+
+        <label for="fechanac">Fecha de nacimiento</label>
+        <input type="date" name="fenacim" id="fechanac"  >
+        <br>
+        <br>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correo" id="correo" placeholder ="zatu@gmail" >
+        <br>
+        <br>
+
+        <input type="file" name="archi" id="archivo"   >
+        <br>
+        <br>
+
+        <label for="correo">Acepto los términos y condiciones</label>
+        <input type="checkbox" name="terminos" id="terminos" value="yes" >
+        <br>
+        <br>
+
+        <textarea name="comentario" cols="50" rows="6" minlength="10" maxlength="100" placeholder="Escribe un comentario"></textarea>
+        <br>
+        <br>
+
+        <select name="pais" id="pais" >
+            <option value="co">Colombia</option>
+            <option value="es">España</option>
+            <option value="usa">Estados unidos</option>
+            <option value="al">Alemania</option>
+            <option value="ar">Argentina</option>
+            <option value="por">Portugal</option>
+        </select>
+        <br>
+        <br>
+
+        <button type="button" class="btn">Inicio</button>
+        <button type="menu" class ="btn">Menú</button>
+        
+
+    </form>
+
+    <section class="links">
+        <a href="https://censa.edu.co/sitio/varios/consulta-de-notas-sistema-q10" target="_blank">Censa Q10 📝</a>
+        <audio controls preload="" src="audio/The Black Eyed Peas, Daddy Yankee, Vanco - Bailar Contigo Vanco Remix.mp3" type ="audio/mp3"></audio>
+        <br>
+        <video controls loop src="videos/ferxxo.mp4" width="300px" height="300px" ></video>
+        <br>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/C4cGljNvCig?si=3OIv4bLFLFurAQ_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <br>
+        <a href="mailto:santirf1@hotmail.com"> Enlace a mi correo</a>
+        <br>
+        <a href="tel:3117868434">Enlace a mi cel</a>
+    </section>
+    
+</body>
+</html>
